@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+form{
+     width:600px;
+     border:1px solid black;
+     display:block;
+     margin:150px auto 150px auto;
+     padding:15px;
+     background-color:lightblue;
+}
+.gulshan{
+display:block;
+width:100%;
+padding:10px;
+margin:0px 0px 0px 20px;
+}
+
+ h2{text-align:center;
+text-shadow:2px 2px pink;
+}
+
+input{
+width:578px;
+clear:right;
+padding:10px 0px 10px 0px;
+}
+
+input[type="submit"] {
+    width: 70px;
+    text-shadow: 1px 1px red;
+    background: bisque;
+}
+</style>
+
+</head>
+<body>
+<form action="/action_page.php">
+<h2> SIGN-UP</h2>
+<div class="gulshan">  <label class="don">NAME</label>
+  <input type="text" id="fname" name="fname"></div>
+  <div class="gulshan"> <label for="email">GMAIL</label>
+  <input type="email"  name="email" ></div>
+  <div class="gulshan"><label for="pwd">PASSWORD</label>
+  <input type="password" id = "pwd" name="pwd"></div>
+  <div class="gulshan"><label for ="confirm pwd">CONFIRM PASSWORD</label>
+  <input type="password" id="confirm pwd" name="confirm pwd"></div>
+<div class="gulshan">  <input type="submit" name="submit" value="register"></div>
+   </body>
+   </html>
